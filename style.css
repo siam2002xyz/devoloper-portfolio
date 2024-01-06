@@ -28,6 +28,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 nav > ul {
   display: flex;
@@ -42,4 +43,20 @@ nav > ul > li > a {
   color: #474747;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
+}
+.banner-content{
+    
 }
