@@ -89,8 +89,12 @@ nav > ul > li > a {
 }
 
 /* main style */
-
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
 /* about style */
+
 .about {
   padding: 230px;
   border-radius: 10px;
@@ -103,4 +107,10 @@ nav > ul > li > a {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
+}
+
+.about-info-contain {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
